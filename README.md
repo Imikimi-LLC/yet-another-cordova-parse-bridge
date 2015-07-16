@@ -6,6 +6,14 @@ Parse.com provides Javascript and native SDKs. Unfortunately, the Javascript API
 
 * First goal is to fully support Push notifications for iOS.
 * Native Parse.com SDK is included with the plugin (iOS: v1.7.5)
+  * Included:
+    - Bolts.framework
+    - Parse.framework
+    - ParseCrashReporting.framework
+  * Not included:
+    - ParseFacebookUtils.framework
+    - ParseFacebookUtilsV4.framework
+    - ParseUI.framework
 
 ## Other Projects
 
