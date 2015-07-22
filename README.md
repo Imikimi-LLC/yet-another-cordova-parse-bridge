@@ -2,6 +2,20 @@
 
 Parse.com provides Javascript and native SDKs. Unfortunately, the Javascript API which works with Cordova is incomplete. Important APIs are missing such as Push notifications. This project is yet another attempt to bridge the cap and augment javascript access to Parse to bring it up to par with the native SDKs.
 
+## Installation
+
+Start by adding the plugin to your cordova project:
+
+    cordova plugin add https://github.com/Imikimi-LLC/yet-another-cordova-parse-bridge.git
+
+Then open your project in XCode and make the following changes to build-settings to enable Swift plugins for Cordova:
+
+    Deployment
+      iOS Deployment Target: iOS 7.0 (or newer)
+
+    Swift Compiler - Code Generation
+      Objective-C Bridging Header: $PRODUCT_NAME/Plugins/com.imikimi.yet-another-cordova-parse-bridge/Bridging-Header.h
+
 ## Details
 
 * First goal is to fully support Push notifications for iOS.
