@@ -19,12 +19,12 @@
 
     <config-file target="config.xml" parent="/widget">
       <feature name="Hello">
-        <param name="ios-package" value="HWPHello" />
+        <param name="ios-package" value="YACPBHello" />
       </feature>
     </config-file>
 
     <header-file src="src/ios/Bridging-Header.h"/>
-    <source-file src="src/ios/Hello.swift"/>
+    <source-file src="src/ios/YACPBHello.swift"/>
 
     <framework src="AudioToolbox.framework" />
     <framework src="CFNetwork.framework" />

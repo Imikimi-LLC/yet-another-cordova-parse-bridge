@@ -16,6 +16,8 @@ Then open your project in XCode and make the following changes to build-settings
     Swift Compiler - Code Generation
       Objective-C Bridging Header: $PRODUCT_NAME/Plugins/com.imikimi.yet-another-cordova-parse-bridge/Bridging-Header.h
 
+    Runpath Search Paths: dyld: @executable_path/Frameworks
+
 ## Details
 
 * First goal is to fully support Push notifications for iOS.
